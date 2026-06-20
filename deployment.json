@@ -1,0 +1,21 @@
+{
+  "network": "testnet",
+  "package_id": "0xe5324915726a9a96d4034fdb51e8251772fd463dd2b40e2e332a6aa7880980da",
+  "objects": {
+    "program_id":    "0x7dc551e06630ea6ab420d30fae5775cba384f7aa7e657227b14ded85fa153705",
+    "manager_cap_id":"0xdf5ec7452700dc94e25f7f5bf914f001d57d960ea2220189a917c1f22b4e885b",
+    "pool_id":       "0xebeefb46f48731cb4c3e73306d4bd8899cfdd03b85ffb720995c58d3da4dc201",
+    "waitlist_id":   "0x0f6cd9d93a33faf4288fcacf1adf4c59b00709f3e37b8d9aa59a17a5be922c3d",
+    "stake_vault_id":"0x43a07bf315ccd611748781275a580f912c738cef8ea3bd3f9611cec2696b30bd"
+  },
+  "wallets": {
+    "manager":     "0x05a61e8a96802664ad8ed5962eac64fea6721d8c87efc840f7d5ecbfd8eee4e9",
+    "recipient_a": "0x34c75499dc7aefa2c86470c3273aac296cb5293cfaedf4eb872d20756f67aebd",
+    "reviewer_1":  "0x88722966e77a10801fbcdff9f1d9c3b5c0d535f776bc455ed6819f10bc45c121",
+    "reviewer_2":  "0x9d7db4635798c72cad07e15cd30c5ecc2220e251606d5986b6daa154cc88d786"
+  },
+  "extra": {
+    "program_id_2":     "0x0ae2ccf5a55433654d1bba096bd99fe455d3e0613365889215b752f3af273415",
+    "manager_cap_id_2": "0x0656857a0fe004c88fc29e3581a9bdf27a2cb7fd72d20d7b2c52af6fc1f22ac7"
+  }
+}

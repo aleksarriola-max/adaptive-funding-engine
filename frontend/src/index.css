@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes flow { to { stroke-dashoffset: -20; } }
+@keyframes hop  { 50% { transform: translateY(-14px); } }
+@keyframes fade { from { opacity: 0; } }
+@keyframes sk   { to { background-position: -200% 0; } }
