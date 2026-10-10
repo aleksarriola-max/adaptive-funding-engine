@@ -58,6 +58,18 @@ Traditional grants are all-or-nothing. The Adaptive Funding Engine turns a grant
 
 ---
 
+## When I'd distrust it
+
+The contracts enforce the payout rules, but they can't make the inputs honest:
+
+- **Reviewer independence depends on the manager.** The manager issues every `ReviewerCap`, so quorum is only as independent as the people the manager picks.
+- **Reviewer rights can change hands.** `ReviewerCap` has the `store` ability, so a reviewer can transfer it to someone else.
+- **"Proof" is a link and a hash.** The contract records that a submission happened and fingerprints it; it can't judge whether the work is any good. That still rests with reviewers.
+- **The yield is a funded reserve, not market yield.** Accrual draws from a reserve the operator deposits, at a rate the operator sets.
+- **Testnet only and unaudited.** 27 Move unit tests cover the logic, but no external audit has been done.
+
+**The safeguard I'd add:** non-transferable reviewer rights (drop `store`), plus a minimum number of reviewers who were not appointed by the same manager.
+
 ## Run locally
 
 ### Prerequisites
