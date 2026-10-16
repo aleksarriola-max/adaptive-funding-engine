@@ -1,5 +1,10 @@
 # Adaptive Funding Engine
 
+[![Sui Testnet](https://img.shields.io/badge/Sui-Testnet-4DA2FF?logo=sui&logoColor=white)](deployment.json)
+[![Move tests](https://img.shields.io/badge/Move%20unit%20tests-27-2ea44f)](contracts/)
+[![React](https://img.shields.io/badge/React-frontend-20232A?logo=react&logoColor=61DAFB)](frontend/)
+[![DeepSurge 2026](https://img.shields.io/badge/DeepSurge-2026-c9a84c)](SUBMISSION.md)
+
 A milestone-based scholarship and grant disbursement system built on the Sui blockchain. Funds vest adaptively — on-time delivery earns bonuses, late submissions decay the payout, and withheld funds recycle automatically to the next recipient in a waitlist.
 
 **Live on Sui Testnet · DeepSurge 2026**
